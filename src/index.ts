@@ -1,4 +1,4 @@
-export =  function randomize<T extends Record<string, number>>(chances: T): keyof T {
+export = function randomize<T extends Record<string, number>>(chances: T): keyof T {
     if(Object.values(chances)
         .reduce((acc, curr) => acc + curr) !== 100) throw new Error(`Received false percentages, received ${Object.values(chances)
             .reduce((acc, curr) => acc + curr)} while expecting 100.`)
