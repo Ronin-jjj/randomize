@@ -1,0 +1,27 @@
+{
+  "name": "@ronin_jjj/randomize",
+  "version": "2.0.0",
+  "description": "Easily randomize values from a simple 50-50 percentage to more advanced percentages!",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronin-jjj/randomize.git"
+  },
+  "keywords": [
+    "random",
+    "chance",
+    "percentage"
+  ],
+  "author": "Ronin_jjj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ronin-jjj/randomize/issues"
+  },
+  "homepage": "https://github.com/Ronin-jjj/randomize#readme"
+}
